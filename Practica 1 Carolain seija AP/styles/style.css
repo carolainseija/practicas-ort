@@ -1,0 +1,80 @@
+.container-root {
+  width: 100wh;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin: "0px auto";
+}
+
+.form {
+  width: 80%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(94, 59, 128);
+  border-radius: 5px solid;
+  margin: 30px;
+  flex-direction: column;
+}
+
+.form_inputs {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 30px;
+}
+
+input {
+  width: 300px;
+  height: 50px;
+}
+
+.btn {
+  width: 300px;
+  height: 50px;
+  background-color: rgb(20, 5, 34);
+  color: white;
+  margin: 30px;
+}
+
+.btn:hover {
+  background-color: blueviolet;
+}
+
+p {
+  color: rgb(22, 1, 78);
+  font-size: 39px;
+  text-align: center;
+}
+
+label {
+  color: white;
+  font-size: 20px;
+}
+
+/*CSS ejercicio 5*/
+img {
+  width: 200px;
+  height: 200px;
+}
+
+tr {
+  width: 250px;
+  height: auto;
+}
+.tr_titles {
+  width: 150px;
+  height: auto;
+}
+
+table {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
